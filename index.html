@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
+    <title>food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
     <!--откуда берется этот линк-->
     <link
       rel="stylesheet"
@@ -17,27 +22,27 @@
       <a href="./index.html"
         ><img src="./vector/Vector.png" alt="логотип" width="66" height="52"
       /></a>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Service</a></li>
-          <li><a href="">Menu</a></li>
-          <li><a href="">Contact</a></li>
+      <nav class="">
+        <ul class="nav-menu">
+          <li><a class="nav-home" href="">Home</a></li>
+          <li><a class="link" href="">About</a></li>
+          <li><a class="link" href="">Service</a></li>
+          <li><a class="link" href="">Menu</a></li>
+          <li><a class="link" href="">Contact</a></li>
         </ul>
       </nav>
-      <button>Order Now</button>
+      <button class="nav-button">Order Now</button>
     </heder>
     <main>
       <section class="hero">
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
-        <p>
+        <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+        <p class="hero-text">
           With just a few clicks, you can have your favorite meals delivered
           straight to your doorstep, no matter where you are. Order now and
           enjoy a hassle-free and delicious meal from the comfort of your own
           home.
         </p>
-        <button>Order Now</button
+        <button class="hero-button">Order Now</button
         ><img
           src="./img/pngwing.com - 2022-08-04T071142.png"
           alt="salad"
@@ -48,13 +53,13 @@
 
       <section class="offerings">
         <img src="./img/aple.png" alt="яблоко" width="396" height="502" />
-        <h2>What’s Special About Our Offerings</h2>
-        <p>
+        <h2 class="title">What’s Special About Our Offerings</h2>
+        <p class="">
           With our platform, you can browse through a diverse selection of
           cuisines and local restaurants, and choose from a variety of dishes
           that cater to your specific taste buds.
         </p>
-        <ul>
+        <ul class="offerings-list">
           <li>
             <img
               src="./vector/rocket_launch_FILL0_wght400_GRAD0_opsz48.png"
@@ -62,8 +67,8 @@
               width="32"
               height="32"
             />
-            <h3>Fasest Delivery</h3>
-            <p>
+            <h3 class="offerings-title">Fasest Delivery</h3>
+            <p class="offerings-text">
               Our advanced logistics system and dedicated delivery partners
               ensure that your meals are delivered to you within 30-minutes.
             </p>
@@ -75,18 +80,18 @@
               width="32"
               height="32"
             />
-            <h3>Easy To Order</h3>
-            <p>
+            <h3 class="offerings-title">Easy To Order</h3>
+            <p class="offerings-text">
               You can browse through a wide variety of cuisines and restaurants,
               select your favorite meals, and place your order in just a few
               clicks.
             </p>
           </li>
         </ul>
-        <button>Order Now</button>
+        <button class="offerings-button">Order Now</button>
       </section>
       <section class="favorites">
-        <h2>Some of Our Favorites</h2>
+        <h2 class="title">Some of Our Favorites</h2>
         <p>Looking for something delicious?</p>
         <img
           src="./img/gamburger.png"
@@ -101,42 +106,42 @@
         <img src="./img/borshch.png" alt="borshch" width="315" height="315" />
       </section>
       <section class="reviews">
-        <h2>What our Customers Say</h2>
+        <h2 class="title">What our Customers Say</h2>
         <p>
           Don't just take our word for it - see what our satisfied customers
           have to say
         </p>
-        <ul>
+        <ul class="reviews-list">
           <li>
-            <p>
+            <p class="reviews-text">
               “The Best app I have used to order food in a while, so many
               options to choose from too, I would recommend to a freind, No
               questions asked”
             </p>
             <img src="./img/Ellipse 9.png" alt="" />
-            <h3>Sumith Shah</h3>
-            <p>Some Dude</p>
+            <h3 class="reviews-name">Sumith Shah</h3>
+            <p class="reviews-city">Some Dude</p>
           </li>
           <li>
-            <p>
+            <p class="reviews-text">
               “The ease with which I can just go in and order what i want was
               amazing, It has been a very pleasant experience ordering from this
               app”
             </p>
             <img src="./img/Ellipse 10.png" alt="" />
-            <h3>Sumith Shah</h3>
-            <p>Some Dude</p>
+            <h3 class="reviews-name">Sumith Shah</h3>
+            <p class="reviews-city">Some Dude</p>
           </li>
         </ul>
       </section>
       <section class="special-offers">
-        <h2>Subscribe To Get Special Offers</h2>
+        <h2 class="title">Subscribe To Get Special Offers</h2>
         <p>
           Order now and receive 10% off your first meal with Enjoy Your Favorite
           Food From Anywhere.
         </p>
         <!--   нужно добавить окно Enter your email  -->
-        <button type="submit">Subscribe</button>
+        <button class="offers-button" type="submit">Subscribe</button>
 
         <img src="./img/banan.png" alt="banan" width="608" height="266" />
       </section>
@@ -145,30 +150,27 @@
       <a href="./index.html"
         ><img src="./vector/Vector.png" alt="logo" width="66" height="52"
       /></a>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Service</a></li>
-        <li><a href="">Menu</a></li>
-        <li><a href="">Contact</a></li>
-
-        <!--кнопку button надо вынести из ul списка?-->
-
-        <p>Subscribe</p>
-        <!--   нужно добавить окно Enter your email  -->
-        <p>
-          By subscribing you agree to with our <a href="">Privacy Policy</a>
-        </p>
-        <button>Subscribe</button>
+      <ul class="footer-menu">
+        <li><a class="link" href="">Home</a></li>
+        <li><a class="link" href="">About</a></li>
+        <li><a class="link" href="">Service</a></li>
+        <li><a class="link" href="">Menu</a></li>
+        <li><a class="link" href="">Contact</a></li>
       </ul>
-      <ul>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">Terms of Service</a></li>
-        <li><a href="">Cookies Settings</a></li>
+
+      <p class="footer-sub">Subscribe</p>
+      <!--   нужно добавить окно Enter your email  -->
+      <p class="footer-text">
+        By subscribing you agree to with our
+        <a class="footer-link" href="">Privacy Policy</a>
+      </p>
+      <button class="footer-button">Subscribe</button>
+      <ul class="footer-menu-link">
+        <li><a class="footer-link" href="">Privacy Policy</a></li>
+        <li><a class="footer-link" href="">Terms of Service</a></li>
+        <li><a class="footer-link" href="">Cookies Settings</a></li>
       </ul>
-      <p>2022 FoodSta. All right reserved.</p>
+      <p class="footer-text">2022 FoodSta. All right reserved.</p>
     </footer>
   </body>
 </html>
-
-+

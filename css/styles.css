@@ -1,3 +1,9 @@
+body {
+  background-color: white;
+  font-family: Roboto, sans-serif;
+  color: var(--Black, #2c2c2c);
+}
+
 .heder {
   background: var(--White, #fefefe);
 }
@@ -23,4 +29,200 @@
 
 .footer {
   background: var(--White, #fefefe);
+}
+
+.nav-menu {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  list-style: none;
+}
+.nav-home {
+  color: #bbf330;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.nav-button,
+.hero-button {
+  color: var(--Black, #2c2c2c);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 19.5px */
+  display: inline-flex;
+  padding: 6px 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: var(--Button-green, #bbf330);
+  border: none;
+}
+.link {
+  text-decoration-line: none;
+  color: currentColor;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  width: 502.417px;
+}
+
+.title {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 50.4px */
+}
+
+.offerings h2 {
+  width: 526.167px;
+}
+.offerings p {
+  width: 500px;
+}
+
+.footer-link {
+  color: var(--Dark-green, #7eb101);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.footer-menu {
+  list-style-type: none;
+}
+
+.footer-menu-link {
+  list-style-type: none;
+}
+
+.offerings-title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 25.2px */
+}
+
+.offerings-button {
+  border-radius: 30px;
+  border: 2px solid var(--Dark-green, #7eb101);
+  background: #fff;
+  color: var(--Black, #2c2c2c);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 19.5px */
+  display: inline-flex;
+  padding: 10px 22px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  width: 511px;
+  height: 69px;
+  flex-shrink: 0;
+}
+.offerings-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  width: 253px;
+}
+.offerings-list {
+  list-style-type: none;
+}
+
+.reviews-list {
+  list-style-type: none;
+}
+
+.reviews-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 473px;
+  height: 64.271px;
+  flex-shrink: 0;
+}
+
+.reviews-name {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+}
+
+.reviews-city {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.offers-button {
+  border-radius: 30px;
+  background: var(--Button-green, #bbf330);
+  display: inline-flex;
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 103px;
+  height: 42px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 19.5px */
+}
+
+.footer-button {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 19.5px */
+  border-radius: 30px;
+  border: 0.854px solid #7eb101;
+  background: #fff;
+  display: inline-flex;
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-sub {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  width: 341.667px;
 }
