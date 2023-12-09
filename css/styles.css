@@ -3,13 +3,31 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--Black, #2c2c2c);
 }
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
 
 .heder {
-  background: var(--White, #fefefe);
-}
+  background: var(--White, white);
+ /* display: flex;
+  width: 1280px;
+  height: 72px;
+  flex-shrink: 0;
+  align-items: center;*/
 
 .hero {
   background: var(--White, #fefefe);
+  display: flex;
 }
 .offerings {
   background-color: #ffe550;
@@ -32,14 +50,17 @@ body {
 }
 
 .nav-menu {
-  font-family: Roboto;
-  font-size: 14px;
+  /*font-size: 14px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
-
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  padding-left: 0;
+  padding-right: 30px;*/
 }
+
 .nav-home {
   color: #bbf330;
   font-weight: 700;
@@ -48,20 +69,24 @@ body {
 
 .nav-button,
 .hero-button {
-  color: var(--Black, #2c2c2c);
+  /*color: var(--Black, #2c2c2c);
   text-align: right;
-  font-family: Roboto;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 19.5px */
-  display: inline-flex;
+ /* display: inline-flex;
   padding: 6px 18px;
   justify-content: center;
   align-items: center;
   border-radius: 30px;
   background: var(--Button-green, #bbf330);
-  border: none;
+  border: none;*/
+}
+
+.nav-button {
+  padding: ;
+  margin: ;
 }
 .link {
   text-decoration-line: none;
@@ -78,6 +103,9 @@ body {
   font-weight: 700;
   line-height: 120%; /* 57.6px */
   width: 502.417px;
+  padding-left: 16px;
+  margin-top: 159px;
+  margin-bottom: 28px;
 }
 
 .title {
@@ -104,13 +132,6 @@ body {
   text-decoration-line: underline;
 }
 
-.footer-menu {
-  list-style-type: none;
-}
-
-.footer-menu-link {
-  list-style-type: none;
-}
 
 .offerings-title {
   font-size: 18px;
@@ -142,6 +163,8 @@ body {
   width: 511px;
   height: 69px;
   flex-shrink: 0;
+  padding-left: 16px;
+  margin-bottom: 40px;
 }
 .offerings-text {
   font-size: 14px;
@@ -198,6 +221,13 @@ body {
   line-height: 150%; /* 19.5px */
 }
 
+.footer-menu {
+  list-style-type: none;
+}
+
+.footer-menu-link {
+  list-style-type: none;
+}
 .footer-button {
   font-size: 13px;
   font-style: normal;
@@ -225,4 +255,12 @@ body {
   font-weight: 500;
   line-height: 150%; /* 21px */
   width: 341.667px;
+}
+
+.logo-heder {
+  width: 66px;
+  height: 52px;
+  flex-shrink: 0;
+  padding: ;
+  margin: 10px 735px 10px 16px;
 }
